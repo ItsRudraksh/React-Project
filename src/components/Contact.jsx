@@ -9,7 +9,7 @@ const Contact = () => {
   };
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
-      <SectionHeader letter="C" sentence=""></SectionHeader>
+      <SectionHeader letter="" sentence=""></SectionHeader>
     </form>
   );
 };
