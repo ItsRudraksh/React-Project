@@ -34,3 +34,15 @@ export const SectionHeader = ({
     </div>
   );
 };
+
+export const FeatureItem = ({ icon, title, description }) => (
+  <article className="flex flex-col items-center justify-center text-center text-white gap-4">
+    <div className="w-32 h-32 rounded-full bg-[#2e85aa] flex items-center justify-center">
+      <FontAwesomeIcon icon={icon} className="text-5xl" />
+    </div>
+    <h3 className="text-xl uppercase leading-9 font-medium font-gotham">
+      {title}
+    </h3>
+    <p className="text-xs leading-6 font-gotham max-w-xs">{description}</p>
+  </article>
+);
