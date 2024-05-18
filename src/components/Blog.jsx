@@ -4,13 +4,13 @@ const Blog = () => {
   const blogContent =
     "Cum sociis natoque penatibus et\nmagnis dis parturient montes,\nnascetur ridiculus mus. Lorem\nipsum dolor sit amet consectetur\nadipiscing elit. Donec sed odio dui.\nVivamus sagittis lacus vel augue";
   const blogImgSrcs = [
-    "/src/assets/Images/blog-img-1.png",
-    "/src/assets/Images/blog-img-2.png",
-    "/src/assets/Images/blog-img-3.png",
-    "/src/assets/Images/blog-img-4.png",
+    "/Images/blog-img-1.png",
+    "/Images/blog-img-2.png",
+    "/Images/blog-img-3.png",
+    "/Images/blog-img-4.png",
   ];
   return (
-    <div className="bg-white py-6">
+    <div id="blog" className="bg-white py-6">
       <SectionHeader letter="B" sentence="Let's Blog" color="black">
         <p className="text-3xl leading-9 font-gotham text-[#222222]">
           We love clean design and advanced digital solutions.

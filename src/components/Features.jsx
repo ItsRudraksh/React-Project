@@ -32,7 +32,10 @@ const Features = () => {
   ];
 
   return (
-    <div className="w-full h-max bg-[#11749e] flex flex-col items-center justify-center gap-4 py-8">
+    <div
+      id="features"
+      className="w-full h-max bg-[#11749e] flex flex-col items-center justify-center gap-4 py-8"
+    >
       <SectionHeader letter="W" sentence="We are an awesome agency" />
       <div className="flex gap-10">
         {featuresData.map((feature, index) => (

@@ -2,9 +2,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons/faChevronDown";
 const Hero = () => {
   return (
-    <div className="w-full h-max flex flex-col relative items-center justify-center">
+    <div
+      id="home"
+      className="w-full h-max flex flex-col relative items-center justify-center"
+    >
       <img
-        src="/src/assets/Images/sec1-bg.png"
+        src="/Images/sec1-bg.png"
         alt=""
         className="w-full h-full object-cover relative"
       />
@@ -23,7 +26,9 @@ const Hero = () => {
               Scroll Down
             </p>
             <div className="w-12 h-12 rounded-full border border-white flex items-center justify-center text-[#f5f5f5] text-xl tracking-[-0.063rem] uppercase transition-all ease-in-out hover:bg-white cursor-pointer hover:text-black">
-              <FontAwesomeIcon icon={faChevronDown} />
+              <a href="#key">
+                <FontAwesomeIcon icon={faChevronDown} />
+              </a>
             </div>
           </div>
         </div>

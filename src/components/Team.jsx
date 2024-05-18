@@ -4,26 +4,26 @@ const Team = () => {
     {
       name: "John Snow",
       post: "CEO",
-      pfp: "/src/assets/Images/team-img-1.png",
+      pfp: "/Images/team-img-1.png",
     },
     {
       name: "Lady Sansa",
       post: "WebDesigner",
-      pfp: "/src/assets/Images/team-img-2.png",
+      pfp: "/Images/team-img-2.png",
     },
     {
       name: "David Smith",
       post: "Photographer",
-      pfp: "/src/assets/Images/team-img-3.png",
+      pfp: "/Images/team-img-3.png",
     },
     {
       name: "Lady Sansa",
       post: "Photographer",
-      pfp: "/src/assets/Images/team-img-4.png",
+      pfp: "/Images/team-img-4.png",
     },
   ];
   return (
-    <div className="bg-white w-full pb-16">
+    <div id="about" className="bg-white w-full pb-16">
       <SectionHeader letter="T" sentence="Our Team" color="black">
         <p className="text-3xl leading-9 text-[#222222] font-gotham">
           sales long tail influencer pitch release niche market

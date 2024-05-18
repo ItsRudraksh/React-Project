@@ -7,12 +7,12 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 const Header = () => {
   const navLinks = [
-    { text: "Home", href: "#" },
-    { text: "Pages", href: "#" },
-    { text: "Features", href: "#" },
-    { text: "Extensions", href: "#" },
-    { text: "Tutorials", href: "#" },
-    { text: "Contact us", href: "#" },
+    { text: "Home", href: "#home" },
+    { text: "About", href: "#about" },
+    { text: "Features", href: "#features" },
+    { text: "News", href: "#news" },
+    { text: "Blog", href: "#blog" },
+    { text: "Contact us", href: "#contact" },
   ];
 
   const iconLinks = [
@@ -24,13 +24,15 @@ const Header = () => {
   return (
     <div className="w-full h-24 bg-[rgba(0,0,0,0.4)] px-4 flex items-center justify-between border-b-2 border-b-[#7b7b7b] fixed top-0 z-10 backdrop-blur-sm">
       <div className="w-1/5 flex items-center justify-end">
-        <img
-          src="/src/assets/Images/Logo.png"
-          alt=""
-          width={67}
-          height={67}
-          className="aspect-square object-cover"
-        />
+        <a href="#home">
+          <img
+            src="/Images/Logo.png"
+            alt=""
+            width={67}
+            height={67}
+            className="aspect-square object-cover"
+          />
+        </a>
       </div>
       <nav className="flex flex-row gap-12 flex-grow items-center justify-center h-full">
         <ul

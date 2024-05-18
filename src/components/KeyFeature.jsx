@@ -1,9 +1,12 @@
 const KeyFeature = () => {
   return (
-    <div className="bg-rose-200 h-max w-full relative flex flex-col items-center justify-center">
+    <div
+      id="key"
+      className="bg-rose-200 h-max w-full relative flex flex-col items-center justify-center"
+    >
       <div className="relative">
         <img
-          src="/src/assets/Images/bg-img-1.png"
+          src="/Images/bg-img-1.png"
           className="w-full object-cover relative"
         />
       </div>
@@ -36,7 +39,7 @@ const KeyFeature = () => {
           </div>
         </div>
         <div>
-          <img src="/src/assets/Images/phone-img.png" alt="" />
+          <img src="/Images/phone-img.png" alt="" />
         </div>
       </div>
     </div>

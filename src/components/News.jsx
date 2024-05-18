@@ -5,7 +5,7 @@ const News = () => {
       heading: "Akita Inu Dog",
       description:
         "Cum sociis natoque penatibus et magnis dis parturient montes, \nnascetur ridiculus mus. Lorem ipsum dolor sit amet\n consectetur adipiscing elit. Donec sed odio dui. Vivamus\n sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.\n\nDonec ullamcorper nulla non metus auctor fringilla. Lorem\n ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur",
-      src: "/src/assets/Images/news-img-1.png",
+      src: "/Images/news-img-1.png",
       classes: "bg-[#222222] flex flex-row",
     },
     {
@@ -13,12 +13,12 @@ const News = () => {
       heading: "Akita Inu Dog",
       description:
         "Cum sociis natoque penatibus et magnis dis parturient montes, \nnascetur ridiculus mus. Lorem ipsum dolor sit amet\n consectetur adipiscing elit. Donec sed odio dui. Vivamus\n sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.\n\nDonec ullamcorper nulla non metus auctor fringilla. Lorem\n ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur",
-      src: "/src/assets/Images/news-img-2.png",
+      src: "/Images/news-img-2.png",
       classes: "bg-[#f3f3f3] flex flex-row-reverse",
     },
   ];
   return (
-    <div className="flex flex-col h-max w-full">
+    <div id="news" className="flex flex-col h-max w-full">
       {agencyData.map((agency, index) => (
         <div
           key={index}
