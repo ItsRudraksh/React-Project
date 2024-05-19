@@ -96,10 +96,10 @@ const Features = () => {
   return (
     <section
       id="features"
-      className="w-full h-max bg-[#11749e] flex flex-col items-center justify-center gap-4 py-8"
+      className="w-full h-max bg-[#11749e] flex flex-col items-center justify-center gap-4 py-8 sm:py-5"
     >
       <SectionHeader letter="W" sentence="We are an awesome agency" />
-      <div className="flex gap-10 flex-wrap justify-center">
+      <div className="flex gap-10 flex-wrap justify-center md:grid md:grid-cols-2 md:px-4 lg:grid lg:grid-cols-2 lg:px-4">
         {featuresData.map((feature, index) => (
           <FeatureItem
             key={index}

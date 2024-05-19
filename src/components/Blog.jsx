@@ -12,17 +12,20 @@ const Blog = () => {
   return (
     <div id="blog" className="bg-white py-6">
       <SectionHeader letter="B" sentence="Let's Blog" color="black">
-        <p className="text-3xl leading-9 font-gotham text-[#222222]">
+        <p className="leading-9 font-gotham text-[#222222] sm:text-center text-xl xl:text-3xl">
           We love clean design and advanced digital solutions.
         </p>
       </SectionHeader>
-      <div className="flex items-center justify-center gap-10 mt-14">
+      <div className="flex items-center justify-center gap-10 mt-14 sm:flex-col lg:grid md:grid grid-cols-2 md:gap-4 md:px-8 lg:px-10">
         {blogImgSrcs.map((src, index) => (
-          <div key={index} className="flex flex-col gap-4">
+          <div
+            key={index}
+            className="flex flex-col gap-4 md:items-center md:gap-2 lg:items-center"
+          >
             <img
               src={src}
               alt=""
-              className="w-[16.875rem] h-[17.5rem] object-cover object-center aspect-square"
+              className="object-cover object-center sm:w-auto sm:h-[180px] xl:w-[16.875rem] h-[17.5rem] aspect-square md:w-[250px] md:h-auto lg:w-[400px] lg:h-auto lg:aspect-video"
               key={index}
             />
             <div className="flex flex-col items-center justify-center">

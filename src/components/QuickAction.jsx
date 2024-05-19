@@ -1,7 +1,7 @@
 import { QuickActionItem } from "./Constants";
 const QuickAction = () => {
   return (
-    <div className="bg-[#11749e] flex items-center justify-center gap-10 h-64">
+    <div className="bg-[#11749e] flex items-center justify-center gap-24 h-64 sm:flex-col md:flex-col md:pt-5 md:pb-5 md:gap-4">
       <QuickActionItem>
         Cum sociis natoque penatibus et magnis dis parturient
         <br />

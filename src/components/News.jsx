@@ -6,7 +6,7 @@ const News = () => {
       description:
         "Cum sociis natoque penatibus et magnis dis parturient montes, \nnascetur ridiculus mus. Lorem ipsum dolor sit amet\n consectetur adipiscing elit. Donec sed odio dui. Vivamus\n sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.\n\nDonec ullamcorper nulla non metus auctor fringilla. Lorem\n ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur",
       src: "/Images/news-img-1.png",
-      classes: "bg-[#222222] flex flex-row",
+      classes: "bg-[#222222] flex flex-row sm:flex-col-reverse",
     },
     {
       topText: "Jan 4, 2016   |   In Culture",
@@ -14,7 +14,7 @@ const News = () => {
       description:
         "Cum sociis natoque penatibus et magnis dis parturient montes, \nnascetur ridiculus mus. Lorem ipsum dolor sit amet\n consectetur adipiscing elit. Donec sed odio dui. Vivamus\n sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.\n\nDonec ullamcorper nulla non metus auctor fringilla. Lorem\n ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur",
       src: "/Images/news-img-2.png",
-      classes: "bg-[#f3f3f3] flex flex-row-reverse",
+      classes: "bg-[#f3f3f3] flex flex-row-reverse sm:flex-col-reverse",
     },
   ];
   return (
@@ -22,7 +22,7 @@ const News = () => {
       {agencyData.map((agency, index) => (
         <div
           key={index}
-          className={`${agency.classes} justify-between items-center`}
+          className={`${agency.classes} justify-between items-center flex-wrap sm:gap-10 sm:justify-center sm:py-10 sm:text-center md:gap-10 md:justify-center md:py-10 md:text-center`}
         >
           <div className="flex-grow flex flex-col items-center justify-center">
             <div className={index == 1 ? "text-black" : "text-white"}>
@@ -30,7 +30,7 @@ const News = () => {
               <h1 className="text-2xl leading-9 uppercase font-gotham font-medium">
                 {agency.heading}
               </h1>
-              <p className="text-sm leading-6 font-gotham whitespace-pre-line">
+              <p className="text-sm leading-6 font-gotham whitespace-pre-line lg:text-xs lg:tracking-wider">
                 {agency.description}
               </p>
             </div>

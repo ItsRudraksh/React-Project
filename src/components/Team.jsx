@@ -25,11 +25,11 @@ const Team = () => {
   return (
     <div id="about" className="bg-white w-full pb-16">
       <SectionHeader letter="T" sentence="Our Team" color="black">
-        <p className="text-3xl leading-9 text-[#222222] font-gotham">
+        <p className="text-3xl leading-9 text-[#222222] font-gotham md:text-2xl">
           sales long tail influencer pitch release niche market
         </p>
       </SectionHeader>
-      <div className="flex items-center justify-center gap-8 mt-6">
+      <div className="flex items-center justify-center gap-8 mt-6 sm:flex-col lg:grid md:grid grid-cols-2 md:px-8 lg:px-20">
         {teamMembers.map((member, index) => (
           <div
             key={index}
