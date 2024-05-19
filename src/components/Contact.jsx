@@ -15,13 +15,13 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact">
-      <div className="relative flex flex-col items-center justify-center">
-        <div>
+    <div id="contact" className="w-full">
+      <div className="relative flex flex-col items-center justify-center w-full">
+        <div className="w-full relative">
           <img
             src="/Images/form-bg.png"
             alt=""
-            className="object-center object-cover relative sm:h-[800px] md:h-[900px] lg:h-[900px]"
+            className="w-full object-center object-cover relative sm:h-[800px] md:h-[900px] lg:h-[900px]"
           />
         </div>
         <div className="absolute flex flex-col items-center justify-start">
