@@ -7,7 +7,7 @@ const KeyFeature = () => {
       <div className="relative">
         <img
           src="/Images/bg-img-1.png"
-          className="w-full object-cover relative sm:h-[1100px] md:h-[480px]"
+          className="w-full object-cover relative sm:h-[1100px] md:h-[480px] lg:h-[900px]"
         />
       </div>
       <div className="absolute w-full h-full flex items-center justify-between xl:px-64 sm:flex-col sm:px-0 sm:justify-center sm:gap-10 md:px-5 lg:px-12">

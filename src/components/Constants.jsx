@@ -7,9 +7,11 @@ export const QuickActionItem = ({ children }) => {
       <FontAwesomeIcon
         icon={faPenToSquare}
         color="white"
-        className="text-[60px] sm:text-5xl"
+        className="text-[60px] sm:text-4xl"
       />
-      <p className="text-sm leading-6 text-white font-gotham">{children}</p>
+      <p className="text-sm leading-6 text-white font-gotham sm:text-xs">
+        {children}
+      </p>
     </div>
   );
 };
