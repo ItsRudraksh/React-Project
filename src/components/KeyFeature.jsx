@@ -16,7 +16,7 @@ const KeyFeature = () => {
             <h1 className="text-2xl leading-9 uppercase text-white font-semibold font-gotham">
               akita inu dog
             </h1>
-            <p className="text-sm leading-6 text-white font-gotham md:text-xs">
+            <p className="text-sm leading-6 text-white font-gotham md:text-xs sm:text-xs">
               Cum sociis natoque penatibus et magnis dis parturient montes,
               <br />
               nascetur ridiculus mus. Lorem ipsum dolor sit amet,
@@ -27,19 +27,19 @@ const KeyFeature = () => {
             </p>
           </div>
           <div className="flex flex-col gap-4 justify-center items-start text-sm leading-6 uppercase font-medium font-gotham text-white">
-            <div className="bg-[#11749e] h-[38px] w-[370px] flex items-center justify-start md:w-[320px]">
+            <div className="bg-[#11749e] h-[38px] w-[370px] flex items-center justify-start md:w-[320px] sm:w-[300px]">
               <h3 className="ml-4">Fully responsive design</h3>
             </div>
-            <div className="bg-[#11749e] h-[38px] w-[400px] flex items-center justify-start md:w-[350px]">
+            <div className="bg-[#11749e] h-[38px] w-[400px] flex items-center justify-start md:w-[350px] sm:w-[340px]">
               <h3 className="ml-4">High Quality Code</h3>
             </div>
-            <div className="bg-[#11749e] h-[38px] w-[428px] flex items-center justify-start md:w-[380px]">
+            <div className="bg-[#11749e] h-[38px] w-[428px] flex items-center justify-start md:w-[380px] sm:w-[370px]">
               <h3 className="ml-4">Different Headers & Layout</h3>
             </div>
           </div>
         </div>
         <div>
-          <img src="/Images/phone-img.png" alt="" />
+          <img src="/Images/phone-img.png" alt="" className="sm:h-[550px]" />
         </div>
       </div>
     </div>
